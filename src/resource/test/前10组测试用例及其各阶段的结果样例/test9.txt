@@ -1,0 +1,29 @@
+
+
+int main()
+
+{
+
+   int n;
+	
+   scan(n);
+
+   print(factor(n));
+    return 0;
+}
+
+
+int factor(int m) {
+  int i,fa;
+  i=0;
+  if(m<=1)
+{
+
+	fa=1;
+     }
+   else{
+       fa=m*factor(m-1);
+       }
+   return fa;
+}
+

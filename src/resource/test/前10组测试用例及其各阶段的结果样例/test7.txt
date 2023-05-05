@@ -1,0 +1,18 @@
+int main(){
+    int a = 1 ;
+    int N = read() ;
+
+    a = sum(sum(3,4),N) ;
+    write(a);
+    return 0;
+}
+
+
+int sum(int sumx,int sumy){
+
+    int result ;
+    result = sumx + sumy ;
+
+    return result ;
+
+}
